@@ -1,0 +1,30 @@
+.navbar-brand{
+  font-family: 'Pacifico';
+  font-size: 10px;
+}
+
+.mylist li{
+  list-style: none;
+}
+
+.caption{
+  font-size: 5rem;
+  font-family: Segoe Script;
+}
+
+@media only screen and (max-width:768px){
+  .caption{
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width:480px){
+  .caption{
+    font-size: 2rem;
+  }
+}
+
+
+.date{
+  padding: 10px 10px;
+}
